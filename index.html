@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    const edgeLink = "microsoft-edge:https://yourcompany.sharepoint.com/sites/yourpage";
+
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isEdge = userAgent.includes("edg");
+
+    if (isEdge) {
+      window.location.href = "https://worksite.sharepoint.com/sites/VLS-Digitalization/SitePages/AI-@-VLS---Work-AI.-Think-AI.-Speak-AI.aspx";
+    } else {
+      window.location.href = edgeLink;
+    }
+  </script>
+</head>
+<body>
+  <p>If you're not redirected, <acrosoft-edge:https://yourcompany.sharepoint.com/sites/yourpageclick here to open in Microsoft Edge</a>.</p>
+</body>
+</html>
