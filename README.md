@@ -22,7 +22,7 @@
   <button onclick="openInEdge()">Open in Edge</button>
 
   <script>
-    const sharepointURL = "[https://yourcompany.sharepoint.com/sites/yourpage](https://worksite.sharepoint.com/sites/VLS-Digitalization/SitePages/AI-@-VLS---Work-AI.-Think-AI.-Speak-AI.aspx)";
+    const sharepointURL = "(https://worksite.sharepoint.com/sites/VLS-Digitalization/SitePages/AI-@-VLS---Work-AI.-Think-AI.-Speak-AI.aspx)";
     const edgeDeepLink = "microsoft-edge:" + sharepointURL;
 
     // Detect if browser is Edge
